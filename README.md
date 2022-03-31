@@ -31,3 +31,13 @@ resource "aws_vpc" "name"{
 ```
 
 Priority of variables terraform
+
+<details close>
+<summary>Want to ruin the surprise?</summary>
+Still updating contents
+
+|[Click](https://github.com/anuvindhs)|
+|---|
+
+</details>
+
