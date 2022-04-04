@@ -1,7 +1,3 @@
-## workspaces
-- used for multipple work environments
-- like dev-test-prod
-- Check  `terraform workspace -help`
 
 
 ## file structre 
@@ -16,28 +12,36 @@
 
 ## Terraform Launage
 
-### Syntax
-HCL
 
 
 
-### How resources provisioned 
-`<resource> <type> <name>`
 
-```hcl
-resource "aws_vpc" "name"{
-
-} 
-```
 
 Priority of variables terraform
 
 <details close>
-<summary>Want to ruin the surprise?</summary>
-Still updating contents
+<summary>What is IAC ? </summary>
 
-|[Click](https://github.com/anuvindhs)|
-|---|
+## IAC 
+
+## What Is IAC?
+
+- Deploy your infrastucture resources with code.
+- It enables DevOps, version control, better collabration
+- Declarative - code in a readable format not worring about api
+- speed, cost , reduced risk
+
+below code is an example for IAC, thi is a code to get current VPCs from **AWS** environment
+
+![example](./Notes/assets/IAC-example.png)
+
+
+  
+## Terraform
+- Terrform is declarative 
+- Codify your Software defined neteorking
+- all cloud IAC solution (AWS,GCP,Azure) , cloud agnostic
+- check out all providers for terraform, [LINK](https://registry.terraform.io/browse/providers)
 
 </details>
 
