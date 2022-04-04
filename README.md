@@ -1,5 +1,20 @@
 
 
+## 10 Min - Revision notes for Terraform Associate Exam.
+
+
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) 
+
+This repo is a collection of study note prepard to use it for revission before the exam.
+
+## Free Course from Andrew Brown
+
+[FreeCodeCamp.org](https://www.freecodecamp.org/news/hashicorp-terraform-associate-certification-study-course-pass-the-exam-with-this-free-12-hour-course/)
+
+<img src="./Notes/assets/badge.png" width="100"> 
+
+### Click on each topic below to expand the content
+
 <details close>
 <summary>What is IAC ? Understanding Infrastructure As Code .</summary>
 
