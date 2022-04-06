@@ -54,7 +54,7 @@ below code is an example for IAC, thi is a code to get current VPCs from **AWS**
 ## terraform init
 
 - it initialize the directory
-- which means it will add modules and plugins 
+- which means it will add modules and plugins.
 - setup up **backend**
 
 </details>
