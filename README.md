@@ -647,10 +647,76 @@ provider "aws" {
 
 #### ` export TF_LOG_PATH=Terraform.log `
 - to export log into file name called `terraform.log`
-- 
+
+</details>
+
+<details close>
+<summary>terraform fmt, terrafoem taint, terraform import.</summary>
+
+`terraform fmt` - beautify the code and make syntax consistant.
+`terrafoem taint` - mark a resource to del , and it will be deleted on next terraform apply
+`terraform import` - bring already build resources to terraform.
+
+
+
 </details>
 
 <details close>
 <summary>Terraform Cloud and Enterprise .</summary>
+ 
+ ## Sentinal 
+- Policy as code 
+- Has its own laungage
+- Version contrl
+- Testing and Automation
+- ex :- enforce CIS Security standards
+
+## Vault
+- Secrets Management Software
+- Pass temparory creds 
+
+## terrform Registry
+
+- Modules are stored in registry
+- Publically accessable
+- Anyone can contribute to Registry
+
+## Cloud Workspaces
+- workspaces hold in cloud rather than in local
+- records activity 
+- Can trigger via github actions
+----
+## OSS and Terraform Clud workspace
+### OSS
+- Create statefile locally
+- Variables are stored in .tfvars file
+- creds are stord locally 
+
+### Cloud 
+- Version control
+- communicated via API/CLi
+- State files stored in Cloud
+- variables  are stored in cloud work space
+- creds are stord in cloud
+----
+
+## Benifits of Terraform Cloud
+-  remote execution
+- workspace on org model
+- version control
+- manage remotely 
+- Private registry avilable to host privately
+- cost estimation
+- policy as code with sentinal
+
+
 
 </details>
+
+----
+
+|  Study materials  |  Links |
+| ------------ | ------------ |
+|  <img src="./Notes/assets/fcc.png" width="200">  |  [LINK](https://www.youtube.com/watch?v=V4waklkBC38&ab_channel=freeCodeCamp.org) </br> A Free Course Developed by Andrew Brown from ExamPro |
+|<img src="./Notes/assets/ca.png" width="200">   |[LINK](https://cloudacademy.com/learning-paths/terraform-associate-certification-exam-preparation-1-2814/)  |
+|<img src="./Notes/assets/acg.png" width="200">   | [LINK](https://learn.acloud.guru/course/hashicorp-certified-terraform-associate-1/dashboard) |
