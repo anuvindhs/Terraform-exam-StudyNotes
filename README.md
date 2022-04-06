@@ -7,11 +7,19 @@
 
 This repo is a collection of study note prepard to use it for revission before the exam.
 
-## Free Course from Andrew Brown
 
-[FreeCodeCamp.org](https://www.freecodecamp.org/news/hashicorp-terraform-associate-certification-study-course-pass-the-exam-with-this-free-12-hour-course/)
+<p align="center">
+<img src="./Notes/assets/badge.png" width="200" > 
+</p>
 
-<img src="./Notes/assets/badge.png" width="100"> 
+
+
+|  Study materials  |  Links |
+| ------------ | ------------ |
+|  <img src="./Notes/assets/fcc.png" width="200">  |  [LINK](https://www.youtube.com/watch?v=V4waklkBC38&ab_channel=freeCodeCamp.org) </br> A Free Course Developed by Andrew Brown from ExamPro |
+|<img src="./Notes/assets/ca.png" width="200">   |[LINK](https://cloudacademy.com/learning-paths/terraform-associate-certification-exam-preparation-1-2814/)  |
+|<img src="./Notes/assets/acg.png" width="200">   | [LINK](https://learn.acloud.guru/course/hashicorp-certified-terraform-associate-1/dashboard) |
+
 
 ### Click on each topic below to expand the content
 
@@ -714,9 +722,3 @@ provider "aws" {
 </details>
 
 ----
-
-|  Study materials  |  Links |
-| ------------ | ------------ |
-|  <img src="./Notes/assets/fcc.png" width="200">  |  [LINK](https://www.youtube.com/watch?v=V4waklkBC38&ab_channel=freeCodeCamp.org) </br> A Free Course Developed by Andrew Brown from ExamPro |
-|<img src="./Notes/assets/ca.png" width="200">   |[LINK](https://cloudacademy.com/learning-paths/terraform-associate-certification-exam-preparation-1-2814/)  |
-|<img src="./Notes/assets/acg.png" width="200">   | [LINK](https://learn.acloud.guru/course/hashicorp-certified-terraform-associate-1/dashboard) |
