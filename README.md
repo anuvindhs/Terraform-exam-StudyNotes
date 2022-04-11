@@ -617,12 +617,7 @@ provider "aws" {
 
 
 
-<details close>
-<summary>Terraform Work Flow, IaC with Terraform.</summary>
 
-
-
-</details>
 
 
 
@@ -662,9 +657,9 @@ provider "aws" {
 <details close>
 <summary>terraform fmt, terrafoem taint, terraform import.</summary>
 
-`terraform fmt` - beautify the code and make syntax consistant.
-`terrafoem taint` - mark a resource to del , and it will be deleted on next terraform apply
-`terraform import` - bring already build resources to terraform.
+`terraform fmt` - beautify the code and make syntax consistant.</br>
+`terrafoem taint` - mark a resource to del , and it will be deleted on next terraform apply</br>
+`terraform import` - bring already build resources to terraform.</br>
 
 
 
@@ -676,7 +671,7 @@ provider "aws" {
  ## Sentinal 
 - Policy as code 
 - Has its own laungage
-- Version contrl
+- Version control
 - Testing and Automation
 - ex :- enforce CIS Security standards
 
@@ -695,7 +690,7 @@ provider "aws" {
 - records activity 
 - Can trigger via github actions
 ----
-## OSS and Terraform Clud workspace
+## OSS and Terraform Cloud workspace
 ### OSS
 - Create statefile locally
 - Variables are stored in.tfvars file
