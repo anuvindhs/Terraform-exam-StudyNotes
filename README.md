@@ -226,6 +226,7 @@ terraform -help
   `apply`         - Create or update infrastructure/ deploy Infrastucture. </br>
   `destroy`      - Destroy previously-created infrastructure.
 </br>
+
 **All other commands:**
 
   `console` - an interactive command prompt. </br>
@@ -264,7 +265,7 @@ Global options (use these before the subcommand, if any):
 
 ##  Terraform state file - `terraform.tfstate` 
 - track your resources state.
-- identify the changes and othe details about the deployed infrastucture is shown in this file
+- identify the changes and othe details about the deployed infrastructure is shown in this file
 - json format
 - sensitive file 
 - can be kept in remote storage place (example: - S3)
@@ -384,11 +385,11 @@ There are Two type of Provisioners
   
 
 Best Practice
-- if there is a inherent waty to pass the script by public cloud provider , use that.
+- if there is a inherent way to pass the script by public cloud provider , use that.
 - terraform cannot track through state files.
 
 
-if the script running pn a resource fails it `taint` the resource and re-provission on next `terraform apply`.
+if the script running on a resource fails it `taint` the resource and re-provission on next `terraform apply`.
 
 [Official Documentation](https://www.terraform.io/language/resources/provisioners/syntax)
 
