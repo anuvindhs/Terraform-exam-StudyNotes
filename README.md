@@ -7,16 +7,24 @@
 
 This repo is a collection of study note prepard to use it for revission before the exam.
 
-## Free Course from Andrew Brown
 
-[FreeCodeCamp.org](https://www.freecodecamp.org/news/hashicorp-terraform-associate-certification-study-course-pass-the-exam-with-this-free-12-hour-course/)
+<p align="center">
+<img src="./Notes/assets/badge.png" width="200" > 
+</p>
 
-<img src="./Notes/assets/badge.png" width="100"> 
+
+
+|  Study materials  |  Links |
+| ------------ | ------------ |
+|  <img src="./Notes/assets/fcc.png" width="200">  |  [LINK](https://www.youtube.com/watch?v=V4waklkBC38&ab_channel=freeCodeCamp.org) </br> A Free Course Developed by Andrew Brown from ExamPro |
+|<img src="./Notes/assets/ca.png" width="200">   |[LINK](https://cloudacademy.com/learning-paths/terraform-associate-certification-exam-preparation-1-2814/)  |
+|<img src="./Notes/assets/acg.png" width="200">   | [LINK](https://learn.acloud.guru/course/hashicorp-certified-terraform-associate-1/dashboard) |
+
 
 ### Click on each topic below to expand the content
 
 <details close>
-<summary>What is IAC ? Understanding Infrastructure As Code .</summary>
+<summary>What is IAC ? Understanding Infrastructure As Code.</summary>
 
 ## IAC 
 
@@ -42,7 +50,7 @@ below code is an example for IAC, thi is a code to get current VPCs from **AWS**
 </details>
 
 <details close>
-<summary>Terraform Work Flow, IaC with Terraform .</summary>
+<summary>Terraform Work Flow, IaC with Terraform.</summary>
 
 ## Terraform Work Flow
 
@@ -54,7 +62,7 @@ below code is an example for IAC, thi is a code to get current VPCs from **AWS**
 ## terraform init
 
 - it initialize the directory
-- which means it will add modules and plugins 
+- which means it will add modules and plugins.
 - setup up **backend**
 
 </details>
@@ -88,7 +96,7 @@ below code is an example for IAC, thi is a code to get current VPCs from **AWS**
 
 
 <details close>
-<summary>Provider Block, resource Block and data block .</summary>
+<summary>Provider Block, resource Block and data block.</summary>
 
 ## provider block
 
@@ -125,7 +133,7 @@ call it by `resource.aws_vpc.example`
 data "aws_ami" "web" {
   provider = aws.west
 
-  # ...
+  #...
 }
 ```
 you can call it  by `data.aws_ami.web`
@@ -140,7 +148,7 @@ terrform will look for providers first while excuting the **.tf** files in the f
 
 
 <details close>
-<summary>Terraform installation and Providers .</summary>
+<summary>Terraform installation and Providers.</summary>
 
 ## Install
 
@@ -214,7 +222,7 @@ terraform -help
 
   `init`          - Prepare your working directory for other commands.
   `validate`      - Check whether the configuration is valid / Making sure     syntax is correct.
-  `plan`         - Show changes required by the current configuration / lets us know what terraform will do with the script .
+  `plan`         - Show changes required by the current configuration / lets us know what terraform will do with the script.
   `apply`         - Create or update infrastructure/ deploy Infrastucture.
   `destroy`      - Destroy previously-created infrastructure.
 </br>
@@ -252,7 +260,7 @@ Global options (use these before the subcommand, if any):
 
 
 <details close>
-<summary>Terraform State .</summary>
+<summary>Terraform State.</summary>
 
 ##  Terraform state file - `terraform.tfstate` 
 - track your resources state.
@@ -276,7 +284,7 @@ Global options (use these before the subcommand, if any):
 
 
 <details close>
-<summary>Terraform variables & outputs .</summary>
+<summary>Terraform variables & outputs.</summary>
 
  
  ## varibles
@@ -407,13 +415,13 @@ resource "null_resource" "mk" {
 
 
 <details close>
-<summary>Terraform state file .</summary>
+<summary>Terraform state file.</summary>
 
 ## Terraform State
 - Real world resources mapped to terraform code locally
 - default Stored locally named `terraforms.tfstate`
 - checks the state before modification.
-- metadata tracked via .tfstate
+- metadata tracked via.tfstate
 
 
 ### Terraform command
@@ -429,7 +437,7 @@ resource "null_resource" "mk" {
 
 
 <details close>
-<summary>Terraform local and remote state files .</summary>
+<summary>Terraform local and remote state files.</summary>
 
 By defaut terraform state files stored locally
 
@@ -453,7 +461,7 @@ Ex: s3, google storage
 
 
 <details close>
-<summary>Terraform Modules .</summary>
+<summary>Terraform Modules.</summary>
 
 ## Modules
 
@@ -493,7 +501,7 @@ Ex: s3, google storage
 
 
 <details close>
-<summary>Terraform input and output modules .</summary>
+<summary>Terraform input and output modules.</summary>
 
 ## Inputs
 - Inputs that passed to Modules
@@ -527,7 +535,7 @@ are some examples
 
 
 <details close>
-<summary>Type constraints .</summary>
+<summary>Type constraints.</summary>
 
 **Sigle type value**
 number = 3
@@ -571,7 +579,7 @@ Dynamic blocks makes code cleaner but bit harder than normal so use it with caut
 
 
 <details close>
-<summary>Terraform fmt, taint, import .</summary>
+<summary>Terraform fmt, taint, import.</summary>
 
 
 `terraform fmt`
@@ -609,7 +617,7 @@ provider "aws" {
 
 
 <details close>
-<summary>Terraform Work Flow, IaC with Terraform .</summary>
+<summary>Terraform Work Flow, IaC with Terraform.</summary>
 
 
 
@@ -618,7 +626,7 @@ provider "aws" {
 
 
 <details close>
-<summary>Terraform Workspace .</summary>
+<summary>Terraform Workspace.</summary>
 
 ## WorkSpaces
 
@@ -640,7 +648,7 @@ provider "aws" {
 
 
 <details close>
-<summary>Debugging .</summary>
+<summary>Debugging.</summary>
 
 #### `export tf_LOG=TRACE`
   - Turn on verbose for logging
@@ -651,6 +659,71 @@ provider "aws" {
 </details>
 
 <details close>
-<summary>Terraform Cloud and Enterprise .</summary>
+<summary>terraform fmt, terrafoem taint, terraform import.</summary>
+
+`terraform fmt` - beautify the code and make syntax consistant.
+`terrafoem taint` - mark a resource to del , and it will be deleted on next terraform apply
+`terraform import` - bring already build resources to terraform.
+
+
 
 </details>
+
+<details close>
+<summary>Terraform Cloud and Enterprise.</summary>
+ 
+ ## Sentinal 
+- Policy as code 
+- Has its own laungage
+- Version contrl
+- Testing and Automation
+- ex :- enforce CIS Security standards
+
+## Vault
+- Secrets Management Software
+- Pass temparory creds 
+
+## terrform Registry
+
+- Modules are stored in registry
+- Publically accessable
+- Anyone can contribute to Registry
+
+## Cloud Workspaces
+- workspaces hold in cloud rather than in local
+- records activity 
+- Can trigger via github actions
+----
+## OSS and Terraform Clud workspace
+### OSS
+- Create statefile locally
+- Variables are stored in.tfvars file
+- creds are stord locally 
+
+### Cloud 
+- Version control
+- communicated via API/CLi
+- State files stored in Cloud
+- variables  are stored in cloud work space
+- creds are stord in cloud
+----
+
+## Benifits of Terraform Cloud
+-  remote execution
+- workspace on org model
+- version control
+- manage remotely 
+- Private registry avilable to host privately
+- cost estimation
+- policy as code with sentinal
+
+
+
+</details>
+
+----
+
+#### More Usefull links
+
+- Terraform Best Practices - [Link](https://www.terraform-best-practices.com/) 
+- 250 Practice Questions For Terraform Associate Certification - [Link](https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a)
