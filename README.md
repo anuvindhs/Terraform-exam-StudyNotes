@@ -647,7 +647,7 @@ provider "aws" {
 
 #### ` export TF_LOG_PATH=Terraform.log `
 - to export log into file name called `terraform.log`
-- 
+
 </details>
 
 <details close>
