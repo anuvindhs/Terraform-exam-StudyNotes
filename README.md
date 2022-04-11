@@ -220,31 +220,31 @@ terraform -help
 
 **Main commands:**
 
-  `init`          - Prepare your working directory for other commands.
-  `validate`      - Check whether the configuration is valid / Making sure     syntax is correct.
-  `plan`         - Show changes required by the current configuration / lets us know what terraform will do with the script.
-  `apply`         - Create or update infrastructure/ deploy Infrastucture.
+  `init`          - Prepare your working directory for other commands. </br>
+  `validate`      - Check whether the configuration is valid / Making sure     syntax is correct. </br>
+  `plan`         - Show changes required by the current configuration / lets us know what terraform will do with the script. </br>
+  `apply`         - Create or update infrastructure/ deploy Infrastucture. </br>
   `destroy`      - Destroy previously-created infrastructure.
 </br>
 **All other commands:**
 
-  `console` - an interactive command prompt.
-  `fmt`    - Reformat your configuration in the standard style.
-  `output` - output values from your root module.
+  `console` - an interactive command prompt. </br>
+  `fmt`    - Reformat your configuration in the standard style. </br>
+  `output` - output values from your root module. </br>
   `force-unlock`  Release a stuck lock on the current workspace.
-  `get`          Install or upgrade remote Terraform modules.
-  `graph`         Generate a Graphviz graph of the steps in an operation.
-  `import`        Associate existing infrastructure with a Terraform resource.
-  `login`         Obtain and save credentials for a remote host.
-  `logout`        Remove locally-stored credentials for a remote host.
-  `providers`    Show the providers required for this configuration.
-  `refresh`       Update the state to match remote systems.
-  `show`         Show the current state or a saved plan.
-  `state`         Advanced state management.
-  `taint`         Mark a resource instance as not fully functional.
-  `test`         Experimental support for module integration testing.
-  `untaint`       Remove the 'tainted' state from a resource instance.
-  `version`       Show the current Terraform version.
+  `get`          Install or upgrade remote Terraform modules. </br>
+  `graph`         Generate a Graphviz graph of the steps in an operation. </br>
+  `import`        Associate existing infrastructure with a Terraform resource. </br>
+  `login`         Obtain and save credentials for a remote host. </br>
+  `logout`        Remove locally-stored credentials for a remote host. </br>
+  `providers`    Show the providers required for this configuration. </br>
+  `refresh`       Update the state to match remote systems. </br>
+  `show`         Show the current state or a saved plan. </br>
+  `state`         Advanced state management. </br>
+  `taint`         Mark a resource instance as not fully functional. </br>
+  `test`         Experimental support for module integration testing. </br>
+  `untaint`       Remove the 'tainted' state from a resource instance. </br>
+  `version`       Show the current Terraform version. </br>
   `workspace`     Workspace management.
 
 </br>
