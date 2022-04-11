@@ -43,7 +43,7 @@ below code is an example for IAC, thi is a code to get current VPCs from **AWS**
   
 ## Terraform
 - Terrform is declarative 
-- Codify your Software defined neteorking
+- Codify your Software defined networking
 - all cloud IAC solution (AWS,GCP,Azure) , cloud agnostic
 - check out all providers for terraform, [LINK](https://registry.terraform.io/browse/providers)
 
