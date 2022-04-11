@@ -655,7 +655,7 @@ provider "aws" {
 </details>
 
 <details close>
-<summary>terraform fmt, terrafoem taint, terraform import.</summary>
+<summary>terraform fmt, terraform taint, terraform import.</summary>
 
 `terraform fmt` - beautify the code and make syntax consistant.</br>
 `terraform taint` - mark a resource to del , and it will be deleted on next terraform apply</br>
