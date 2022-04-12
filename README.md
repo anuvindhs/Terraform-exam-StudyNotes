@@ -718,7 +718,7 @@ provider "aws" {
 
 ----
 
-#### More Usefull links
+#### More Useful links
 
 - Terraform Best Practices - [Link](https://www.terraform-best-practices.com/) 
 - 250 Practice Questions For Terraform Associate Certification - [Link](https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a)
