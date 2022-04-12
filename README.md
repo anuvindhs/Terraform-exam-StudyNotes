@@ -2,7 +2,7 @@
 
 ## 10 Min - Revision notes for Terraform Associate Exam. 
 
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) 
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)   ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=anuvindhs/Terraform-exam-StudyNotes) 
 
 This repo is a collection of study note prepard to use it for revission before the exam.
 
@@ -722,3 +722,5 @@ provider "aws" {
 
 - Terraform Best Practices - [Link](https://www.terraform-best-practices.com/) 
 - 250 Practice Questions For Terraform Associate Certification - [Link](https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a)
+
+
