@@ -2,7 +2,8 @@
 
 ## 10 Min - Revision notes for Terraform Associate Exam. 
 
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)   ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=anuvindhs/Terraform-exam-StudyNotes) 
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)  ![visitor badge-2](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=anuvindhs/Terraform-exam-StudyNotes&color=55acb7&style=for-the-badge&logo=Github)
+
 
 This repo is a collection of study note prepard to use it for revission before the exam.
 
